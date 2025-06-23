@@ -1,23 +1,24 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { FaBootstrap, FaCss3Alt, FaGitAlt, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
+import { FaBootstrap, FaCss3Alt, FaGithub , FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMongodb, SiPostman, SiExpress } from "react-icons/si";
+import { RiTailwindCssFill, RiNextjsFill } from "react-icons/ri";
+import { SiMongodb, SiPostman, SiExpress, SiTypescript  } from "react-icons/si";
 
 const TechStack = () => {
     const techStack = [
         { name: 'HTML', icon: <FaHtml5 className="text-orange-600 text-5xl" /> },
         { name: 'CSS', icon: <FaCss3Alt className="text-blue-600 text-5xl" /> },
         { name: 'JavaScript', icon: <IoLogoJavascript className="text-yellow-500 text-5xl" /> },
+        {name : 'TypeScript', icon : <SiTypescript className='text-blue-400 text-5xl'/>},
         { name: 'Bootstrap', icon: <FaBootstrap className="text-purple-950 text-5xl" /> },
         { name: 'React', icon: <FaReact className="text-blue-400 text-5xl" /> },
+        {name : 'Next.js', icon : <RiNextjsFill className='text-black text-5xl'/>},
         { name: 'Tailwind CSS', icon: <RiTailwindCssFill className="text-teal-500 text-5xl" /> },
         { name: 'Node.js', icon: <FaNodeJs className="text-green-600 text-5xl" /> },
         { name: 'Express JS', icon: <SiExpress className="text-gray-700 text-5xl" /> },
         { name: 'Postman', icon: <SiPostman className="text-orange-500 text-5xl" /> },
         { name: 'MongoDB', icon: <SiMongodb className="text-green-500 text-5xl" /> },
-        { name: 'Git', icon: <FaGitAlt className="text-orange-500 text-5xl" /> }
+        { name: 'GitHub', icon: <FaGithub  className="text-orange-500 text-5xl" /> },
     ];
 
     return (

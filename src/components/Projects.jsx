@@ -10,6 +10,13 @@ const projects = [
     image: "project1.jpg",
     link: "https://github.com/rastogi-archi/Query-Solver",
   },
+  {
+    title: "LaundryMate",
+    description:
+      "Developed a full-stack web application to manage and streamline hostel laundry bookings, minimizing scheduling conflicts and optimizing machine usage.",
+    image: "laundrymate.jpg",
+    link: "https://github.com/rastogi-archi/washing",
+  },
   
 ];
 
